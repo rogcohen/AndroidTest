@@ -18,7 +18,6 @@ build-android:
       with:
         workdir:.
         buildozer_version: stable
-
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
       with:
