@@ -4,10 +4,10 @@
 title = android_test_app
 
 # (str) Package name
-package.name = crossword_helper
+package.name = android_test_app
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.crossword_helper
+package.domain = org.android_test_app
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -39,7 +39,9 @@ version = 0.1
 # comma separated e.g. requirements = sqlite3,kivy
 # requirements = python3,kivy
 # requirements = python3,kivy==2.0.0,github.com/kivymd/KivyMD/archive/m..., sdl2_ttf==2.0.15,pillow
-requirements = python3,kivy==2.0.0,sdl2_ttf==2.0.15,pillow
+# requirements = python3,kivy==2.0.0,sdl2_ttf==2.0.15,pillow
+requirements = python3,kivy==2.0.0,pygments,kivy-deps.angle~=0.3.2,pypiwin32,kivy-deps.glew~=0.3.1,docutils,Kivy-Garden>=0.1.4,kivy-deps.sdl2~=0.4.5,requests,urllib3>=1.21.1,charset-normalizer<3,>=2,idna<4,>=2.5,certifi>=2017.4.17
+
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
